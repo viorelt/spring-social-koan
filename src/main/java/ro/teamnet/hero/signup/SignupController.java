@@ -17,18 +17,18 @@ package ro.teamnet.hero.signup;
 
 import org.springframework.social.connect.Connection;
 import org.springframework.social.connect.web.ProviderSignInUtils;
-import org.springframework.social.showcase.account.Account;
-import org.springframework.social.showcase.account.AccountRepository;
-import org.springframework.social.showcase.account.UsernameAlreadyInUseException;
-import org.springframework.social.showcase.message.Message;
-import org.springframework.social.showcase.message.MessageType;
-import org.springframework.social.showcase.signin.SignInUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.context.request.WebRequest;
+import ro.teamnet.hero.account.Account;
+import ro.teamnet.hero.account.AccountRepository;
+import ro.teamnet.hero.account.UsernameAlreadyInUseException;
+import ro.teamnet.hero.message.Message;
+import ro.teamnet.hero.message.MessageType;
+import ro.teamnet.hero.signin.SignInUtils;
 
 import javax.inject.Inject;
 import javax.validation.Valid;

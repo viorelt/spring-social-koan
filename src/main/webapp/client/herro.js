@@ -2,7 +2,7 @@ jQuery.browser = {};
 var currentFlowIdx=0;
 jQuery.browser.msie = jQuery.support.boxModel;
 $.ajaxSetup({async:false});
-angular.module('herro', ['herroservices']).config(function ($routeProvider) {
+angular.module('hero', ['heroservices']).config(function ($routeProvider) {
     $routeProvider.
 
         when('/facebook', {templateUrl:appContext+'/views/facebook/home.html', controller:FacebookController})

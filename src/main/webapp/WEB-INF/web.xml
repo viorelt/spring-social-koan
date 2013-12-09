@@ -12,7 +12,7 @@
     <!-- Location of Java @Configuration classes that configure the components that makeup this application -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>ro.teamnet.herrokoan.config</param-value>
+        <param-value>ro.teamnet.hero.config</param-value>
     </context-param>
 
     <!-- Use the simplified configuration by default. -->
@@ -28,7 +28,7 @@
 
     <!-- Processes application requests -->
     <servlet>
-        <servlet-name>herroServlet</servlet-name>
+        <servlet-name>heroServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
@@ -42,7 +42,7 @@
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>herroServlet</servlet-name>
+        <servlet-name>heroServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 

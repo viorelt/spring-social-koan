@@ -2,7 +2,7 @@
 <head>
 <jsp:include page="jsDef.jsp"/>
 <meta charset="utf-8">
-<title>Herro</title>
+<title>Hero</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link type="text/css" href="${pageContext.request.contextPath}/jquery/css/jquery.fileupload-ui.css${resourcePrefix}" rel="stylesheet"/>
 <%--<link type="text/css" href="${pageContext.request.contextPath}/jquery/css/jquery.fileupload-ui-noscript.css${resourcePrefix}" rel="stylesheet"/>--%>

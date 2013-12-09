@@ -5,9 +5,10 @@
 <!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
 <!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en" class="no-js" ng-app="herro">
-<body ata-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
+<html lang="en" class="no-js" ng-app="hero">
 <jsp:include page="jspparts/head.jsp"/>
+<body ata-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
+
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
@@ -25,17 +26,17 @@
                     </li>
                     <li class="dropdown">
                         <a  style="width: 170px"
-                                href="${pageContext.request.contextPath}/#/twiter"
-                           class="dropdown-toggle top-info-block"><h3>Twiter</h3></a>
+                            href="${pageContext.request.contextPath}/#/twiter"
+                            class="dropdown-toggle top-info-block"><h3>Twiter</h3></a>
                     </li>
                     <li class="dropdown">
                         <a  style="width: 170px"
-                                href="${pageContext.request.contextPath}/#/linkedin"
-                           class="dropdown-toggle top-info-block"><h3>LinkedIn</h3></a>
+                            href="${pageContext.request.contextPath}/#/linkedin"
+                            class="dropdown-toggle top-info-block"><h3>LinkedIn</h3></a>
                     </li>
                     <li class="dropdown">
                         <a style="width: 170px"
-                                href="${pageContext.request.contextPath}/#/googleplus"
+                           href="${pageContext.request.contextPath}/#/googleplus"
                            class="dropdown-toggle top-info-block"><h3>Google+</h3></a>
                     </li>
                 </ul>
@@ -57,7 +58,7 @@
         <h3 id="submenu" align="left"></h3>
     </div>
     <div class="container align-center">
-        <p>To Herro</p>
+        <p>To Hero</p>
     </div>
 </header>
 <div class="container" style="padding-left: 35px">

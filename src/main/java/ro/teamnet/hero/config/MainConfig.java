@@ -41,8 +41,8 @@ import javax.sql.DataSource;
  * @author Craig Walls
  */
 @Configuration
-@ComponentScan(basePackages = "org.springframework.social.showcase", excludeFilters = { @Filter(Configuration.class) })
-@PropertySource("classpath:org/springframework/social/showcase/config/application.properties")
+@ComponentScan(basePackages = "ro.teamnet.hero", excludeFilters = { @Filter(Configuration.class) })
+@PropertySource("classpath:ro/teamnet/hero/config/application.properties")
 @EnableTransactionManagement
 public class MainConfig {
 

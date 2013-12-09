@@ -33,12 +33,12 @@
 
 <script src="${pageContext.request.contextPath}/jquery/js/jquery.fileupload-jquery-ui.js${resourcePrefix}"></script>
 <script src="${pageContext.request.contextPath}/jquery/js/jquery.fileupload-angular.js${resourcePrefix}"></script>
-<script src="${pageContext.request.contextPath}/client/herro.js${resourcePrefix}"></script>
-<script src="${pageContext.request.contextPath}/client/herroServices.js${resourcePrefix}"></script>
+<script src="${pageContext.request.contextPath}/client/hero.js${resourcePrefix}"></script>
+<script src="${pageContext.request.contextPath}/client/heroServices.js${resourcePrefix}"></script>
 
 
                                                               `
-<script src="${pageContext.request.contextPath}/client/herro.js${resourcePrefix}" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/client/hero.js${resourcePrefix}" type="text/javascript"></script>
 
 
 

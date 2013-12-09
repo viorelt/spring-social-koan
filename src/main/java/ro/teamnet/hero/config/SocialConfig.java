@@ -41,11 +41,11 @@ import org.springframework.social.facebook.connect.FacebookConnectionFactory;
 import org.springframework.social.facebook.web.DisconnectController;
 import org.springframework.social.linkedin.api.LinkedIn;
 import org.springframework.social.linkedin.connect.LinkedInConnectionFactory;
-import org.springframework.social.showcase.facebook.PostToWallAfterConnectInterceptor;
-import org.springframework.social.showcase.signin.SimpleSignInAdapter;
-import org.springframework.social.showcase.twitter.TweetAfterConnectInterceptor;
 import org.springframework.social.twitter.api.Twitter;
 import org.springframework.social.twitter.connect.TwitterConnectionFactory;
+import ro.teamnet.hero.facebook.PostToWallAfterConnectInterceptor;
+import ro.teamnet.hero.signin.SimpleSignInAdapter;
+import ro.teamnet.hero.twitter.TweetAfterConnectInterceptor;
 
 import javax.inject.Inject;
 import javax.sql.DataSource;

@@ -1,4 +1,4 @@
-angular.module('herroservices', ['ngResource'])
+angular.module('heroservices', ['ngResource'])
     .factory('HttpSpinnerInterceptor', function ($q, $window) {
         return function (promise) {
             return promise.then(function (response) {
