@@ -6,7 +6,7 @@
 <!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html lang="en" class="no-js" ng-app="hero">
-<jsp:include page="jspparts/head.jsp"/>
+<jsp:include page="../../jspparts/head.jsp"/>
 <body ata-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
 
 <div class="navbar navbar-inverse navbar-fixed-top">
@@ -67,6 +67,6 @@
         </div>
     </div>
 </div>
-<jsp:include page="jspparts/footer.jsp"/>
+<jsp:include page="../../jspparts/footer.jsp"/>
 </body>
 </html>
